@@ -1,0 +1,19 @@
+base.py:507 #INFO     [2025-01-07 20:07:50,316] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+base.py:507 #INFO     [2025-01-07 20:07:50,316] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+base.py:1090 #INFO     [2025-01-07 20:07:50,316] - apscheduler.scheduler - Added job "send_event_cron" to job store "default"
+base.py:1090 #INFO     [2025-01-07 20:07:50,316] - apscheduler.scheduler - Added job "send_store_cron" to job store "default"
+base.py:214 #INFO     [2025-01-07 20:07:50,316] - apscheduler.scheduler - Scheduler started
+dispatcher.py:527 #INFO     [2025-01-07 20:07:50,624] - aiogram.dispatcher - Start polling
+dispatcher.py:341 #INFO     [2025-01-07 20:07:50,722] - aiogram.dispatcher - Run polling for bot @MaminAmetistBot id=8065712864 - 'MaminAmetistBot'
+dispatcher.py:219 #ERROR    [2025-01-08 13:44:45,272] - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+dispatcher.py:221 #WARNING  [2025-01-08 13:44:45,272] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8065712864)
+base.py:176 #WARNING  [2025-01-08 13:44:45,273] - apscheduler.executors.default - Run time of job "send_event_cron (trigger: cron[hour='7', minute='30'], next run at: 2025-01-09 07:30:00 +07)" was missed by 6:14:45.273123
+dispatcher.py:233 #INFO     [2025-01-08 13:44:56,849] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 8065712864)
+dispatcher.py:219 #ERROR    [2025-01-08 22:28:18,298] - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+dispatcher.py:221 #WARNING  [2025-01-08 22:28:18,298] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8065712864)
+base.py:176 #WARNING  [2025-01-08 22:28:18,300] - apscheduler.executors.default - Run time of job "send_store_cron (trigger: cron[hour='17', minute='0'], next run at: 2025-01-09 17:00:00 +07)" was missed by 5:28:18.300433
+dispatcher.py:233 #INFO     [2025-01-08 22:28:19,641] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 8065712864)
+dispatcher.py:172 #INFO     [2025-01-08 22:28:20,779] - aiogram.event - Update id=158123952 is handled. Duration 1139 ms by bot id=8065712864
+dispatcher.py:172 #INFO     [2025-01-08 22:29:30,447] - aiogram.event - Update id=158123953 is handled. Duration 125 ms by bot id=8065712864
+dispatcher.py:359 #INFO     [2025-01-08 23:01:17,210] - aiogram.dispatcher - Polling stopped for bot @MaminAmetistBot id=8065712864 - 'MaminAmetistBot'
+dispatcher.py:554 #INFO     [2025-01-08 23:01:17,210] - aiogram.dispatcher - Polling stopped
