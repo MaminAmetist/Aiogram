@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 config: Config = load_config()
 
 # Инициализация бота и диспетчера
-bot: Bot = Bot(token=config.tg_bot.token, default=DefaultBotProperties(parse_mode=ParseMode.HTML))  # WTF
+bot: Bot = Bot(token=config.tg_bot.token, default=DefaultBotProperties(parse_mode=ParseMode.HTML))  
 dp: Dispatcher = Dispatcher()
 
 
