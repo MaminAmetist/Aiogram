@@ -16,7 +16,7 @@ async def start_command(message: Message, state: FSMContext):
         await message.answer('Ты заблокирован в этом чате.')
     users = get_users()
     if message.from_user.id is users:
-        await message.answer('Ты уже .')
+        await message.answer('Регистрация уже пройдена.')
     else:
         await message.answer('Через это надо пройти, но только один раз.\n'
                              'Для отмены вызови команду /back', reply_markup=keyboard_reg)
