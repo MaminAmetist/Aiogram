@@ -1,4 +1,3 @@
-from __future__ import annotations
 from dataclasses import dataclass
 from environs import Env  # библиотека для хранения скрытых данных
 
